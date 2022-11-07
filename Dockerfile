@@ -1,4 +1,4 @@
 FROM python:3.8-slim-buster
 WORKDIR /app
 COPY . .
-CMD [ "python3", "Test.py"]
+CMD [ "python3", "-m", "Test.py"]
