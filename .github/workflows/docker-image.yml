@@ -11,9 +11,6 @@ jobs:
   build:
 
     runs-on: python:3.8-slim-buster
-    strategy:
-      matrix:
-        python-version: [3.6, 3.7, 3.8]
 
     steps:
     - uses: actions/checkout@v3
